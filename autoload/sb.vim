@@ -19,4 +19,6 @@ func! sb#LinkNote()
   exec "normal! p"
 
   let @@ = reg_save
+
+  redraw!
 endfunc
