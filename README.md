@@ -21,9 +21,10 @@ Plug 'Aadam-Ali/sb'
 
 | Command                | List                                                                                  |
 | ---                    | ---                                                                                   |
-| `:SBOpenNote`        | Opens note from link (`sb path`)                                        |
 | `:SBLinkNote`       | Place link to note under cursor (`sb link`)                                                            |
 | `:SBNewNote`             | Creates a new note and opens it (`sb new`)                                                              |
+| `:SBNewPrivateNote`             | Creates a new private note and opens it (`sb new -p`)                                                              |
+| `:SBOpenNote`        | Opens note from link (`sb path`)                                        |
 
 There are no default keybinds defined to run these commands, these are up to the user. Please raise an issue if you would like to be provided with default keybinds.
 

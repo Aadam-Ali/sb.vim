@@ -14,5 +14,6 @@ let g:loaded_sb = 1
 
 " Exposes the plugin's functions for use as commands in Vim.
 command! -nargs=0 SBNewNote call sb#NewNote()
+command! -nargs=0 SBNewPrivateNote call sb#NewPrivateNote()
 command! -nargs=0 SBOpenNote call sb#OpenNote()
 command! -nargs=0 SBLinkNote call sb#LinkNote()

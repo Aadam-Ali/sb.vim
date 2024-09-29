@@ -5,6 +5,13 @@ func! sb#NewNote()
 	exec "edit " . note
 endfunc
 
+func! sb#NewPrivateNote()
+	let title = input('Title> ')
+	let note = system("sb new -p '" . title . "'")
+
+	exec "edit " . note
+endfunc
+
 func! sb#OpenNote()
   let note = expand('<cfile>')
   let path = system("sb path " . "'" . note . "'")
